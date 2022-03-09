@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -13,14 +13,140 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2300 2400 2    50   BiDi ~ 0
+Text HLabel 2450 2400 0    50   BiDi ~ 0
 SDA_Int
-Text HLabel 2300 2650 2    50   Input ~ 0
+Text HLabel 2450 2900 0    50   Input ~ 0
 SCL_Int
-Text HLabel 2250 2050 2    50   Input ~ 0
+Text HLabel 2450 3150 0    50   Input ~ 0
 EN
 Text HLabel 6450 2150 2    50   BiDi ~ 0
 SDA_EXT
-Text HLabel 6450 2500 2    50   BiDi ~ 0
+Text HLabel 6450 2550 2    50   BiDi ~ 0
 SCL_EXT
+$Comp
+L SilverSat_symbols:SN74CB3Q3306A U2
+U 1 1 6223DD1E
+P 4250 2000
+F 0 "U2" H 4300 2015 50  0000 C CNN
+F 1 "SN74CB3Q3306A" H 4300 1924 50  0000 C CNN
+F 2 "" H 4250 2000 50  0001 C CNN
+F 3 "" H 4250 2000 50  0001 C CNN
+	1    4250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6224076B
+P 4950 1850
+F 0 "C3" V 5202 1850 50  0000 C CNN
+F 1 ".1uF" V 5111 1850 50  0000 C CNN
+F 2 "" H 4988 1700 50  0001 C CNN
+F 3 "~" H 4950 1850 50  0001 C CNN
+	1    4950 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR07
+U 1 1 6224147F
+P 4800 1600
+F 0 "#PWR07" H 4800 1450 50  0001 C CNN
+F 1 "+3.3V" H 4815 1773 50  0000 C CNN
+F 2 "" H 4800 1600 50  0001 C CNN
+F 3 "" H 4800 1600 50  0001 C CNN
+	1    4800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1600 4800 1850
+Wire Wire Line
+	4800 2250 4650 2250
+Connection ~ 4800 1850
+Wire Wire Line
+	4800 1850 4800 2250
+$Comp
+L power:GND #PWR08
+U 1 1 62242069
+P 5200 1850
+F 0 "#PWR08" H 5200 1600 50  0001 C CNN
+F 1 "GND" V 5205 1722 50  0000 R CNN
+F 2 "" H 5200 1850 50  0001 C CNN
+F 3 "" H 5200 1850 50  0001 C CNN
+	1    5200 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 1850 5100 1850
+Wire Wire Line
+	3950 2550 3700 2550
+Wire Wire Line
+	3700 2550 3700 1300
+Wire Wire Line
+	3700 1300 5650 1300
+Wire Wire Line
+	5650 1300 5650 2150
+Wire Wire Line
+	5650 2150 6450 2150
+Wire Wire Line
+	4650 2550 6450 2550
+$Comp
+L power:GND #PWR06
+U 1 1 622715DA
+P 3950 2700
+F 0 "#PWR06" H 3950 2450 50  0001 C CNN
+F 1 "GND" V 3955 2572 50  0000 R CNN
+F 2 "" H 3950 2700 50  0001 C CNN
+F 3 "" H 3950 2700 50  0001 C CNN
+	1    3950 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 2250 3600 2250
+Wire Wire Line
+	3600 2250 3600 3000
+Wire Wire Line
+	3600 3000 4200 3000
+Wire Wire Line
+	4850 2400 4650 2400
+$Comp
+L Device:R_US R4
+U 1 1 62271FB7
+P 5050 2950
+F 0 "R4" V 4845 2950 50  0000 C CNN
+F 1 "10 Kohm" V 4936 2950 50  0000 C CNN
+F 2 "" V 5090 2940 50  0001 C CNN
+F 3 "~" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR09
+U 1 1 62273250
+P 5200 2950
+F 0 "#PWR09" H 5200 2800 50  0001 C CNN
+F 1 "+3.3V" H 5215 3123 50  0000 C CNN
+F 2 "" H 5200 2950 50  0001 C CNN
+F 3 "" H 5200 2950 50  0001 C CNN
+	1    5200 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 2400 4850 2950
+Wire Wire Line
+	4900 2950 4850 2950
+Connection ~ 4850 2950
+Wire Wire Line
+	4850 2950 4850 3000
+Wire Wire Line
+	4650 2700 4650 2900
+Wire Wire Line
+	4650 2900 2450 2900
+Wire Wire Line
+	3950 2400 2450 2400
+Wire Wire Line
+	2450 3150 4200 3150
+Wire Wire Line
+	4200 3150 4200 3000
+Connection ~ 4200 3000
+Wire Wire Line
+	4200 3000 4850 3000
 $EndSCHEMATC
