@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Silversat special parts")(type KiCad)(uri "${KIPRJMOD}/Silversat special parts.pretty")(options "")(descr ""))
+  (lib (name ESQ-126-39-G-D)(type KiCad)(uri C:/Users/dwebs/Downloads/LIB_ESQ-126-39-G-D/ESQ-126-39-G-D/CircuitStudio/ESQ-126-39-G-D.lbr)(options "")(descr ""))
+)

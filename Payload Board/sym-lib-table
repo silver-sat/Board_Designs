@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Library_no_delete)(type Legacy)(uri "${KIPRJMOD}/Silver sat KiCad/Library_no delete.lib")(options "")(descr "")(disabled))
+)
