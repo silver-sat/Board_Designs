@@ -359,7 +359,7 @@ F 3 "~" H 4300 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_Pushbutton-Switches:KS-01Q-01 S?
+L Avionics_Board-rescue:KS-01Q-01-dk_Pushbutton-Switches S?
 U 1 1 6231D5FB
 P 3600 7350
 F 0 "S?" H 3600 7675 50  0000 C CNN
@@ -431,7 +431,7 @@ $EndComp
 Wire Wire Line
 	4650 7300 4650 7150
 $Comp
-L Connector:USB_B_Micro J?
+L Avionics_Board-rescue:USB_B_Micro-Connector J?
 U 1 1 623290B6
 P 1200 1350
 F 0 "J?" H 1257 1817 50  0000 C CNN
