@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d6040293-95f0-436a-938c-ad69875a4be8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "3V3_IN" (shape input) (at 80.01 73.66 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 348dc703-3cab-4547-b664-e8b335a6083c)
+  )
+  (hierarchical_label "3V3_OUT" (shape output) (at 217.17 72.39 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7d2eba81-aa80-4257-a5a7-9a6179da897e)
+  )
+)
