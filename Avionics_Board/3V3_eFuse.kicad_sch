@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Avionics Board")
+    (rev "A")
+    (company "SilverSat Limited")
+  )
+
   (lib_symbols
   )
 
