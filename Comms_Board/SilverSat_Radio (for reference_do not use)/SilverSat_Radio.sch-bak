@@ -1,0 +1,182 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 5950 1350 2950 2600
+U 6043E19E
+F0 "Power Amp" 50
+F1 "Power_amp.sch" 50
+$EndSheet
+$Comp
+L power:GND #PWR?
+U 1 1 60454BD4
+P 2400 7400
+F 0 "#PWR?" H 2400 7150 50  0001 C CNN
+F 1 "GND" H 2405 7227 50  0000 C CNN
+F 2 "" H 2400 7400 50  0001 C CNN
+F 3 "" H 2400 7400 50  0001 C CNN
+	1    2400 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Module:RFM69HCW U?
+U 1 1 60456A95
+P 3750 2550
+F 0 "U?" H 3750 3231 50  0000 C CNN
+F 1 "RFM69HCW" H 3750 3140 50  0000 C CNN
+F 2 "" H 450 4200 50  0001 C CNN
+F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcb8284d838.pdf" H 450 4200 50  0001 C CNN
+	1    3750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino:Arduino_Mega2560_Shield XA?
+U 1 1 604DA836
+P 3950 6100
+F 0 "XA?" V 4003 3772 60  0000 R CNN
+F 1 "Arduino_Mega2560_Shield" V 3897 3772 60  0000 R CNN
+F 2 "" H 4650 8850 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-mega-2560-rev3" H 4650 8850 60  0001 C CNN
+	1    3950 6100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4250 2950 5700 2950
+Wire Wire Line
+	5700 2950 5700 4250
+Wire Wire Line
+	5700 4250 6100 4250
+Wire Wire Line
+	6100 4250 6100 4800
+$Comp
+L power:GND #PWR?
+U 1 1 604E828F
+P 3850 3150
+F 0 "#PWR?" H 3850 2900 50  0001 C CNN
+F 1 "GND" H 3855 2977 50  0000 C CNN
+F 2 "" H 3850 3150 50  0001 C CNN
+F 3 "" H 3850 3150 50  0001 C CNN
+	1    3850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604E8A44
+P 3750 3150
+F 0 "#PWR?" H 3750 2900 50  0001 C CNN
+F 1 "GND" H 3755 2977 50  0000 C CNN
+F 2 "" H 3750 3150 50  0001 C CNN
+F 3 "" H 3750 3150 50  0001 C CNN
+	1    3750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604E8DC6
+P 3650 3150
+F 0 "#PWR?" H 3650 2900 50  0001 C CNN
+F 1 "GND" H 3655 2977 50  0000 C CNN
+F 2 "" H 3650 3150 50  0001 C CNN
+F 3 "" H 3650 3150 50  0001 C CNN
+	1    3650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604E913E
+P 2300 7400
+F 0 "#PWR?" H 2300 7150 50  0001 C CNN
+F 1 "GND" H 2305 7227 50  0000 C CNN
+F 2 "" H 2300 7400 50  0001 C CNN
+F 3 "" H 2300 7400 50  0001 C CNN
+	1    2300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604E9C3D
+P 2500 7400
+F 0 "#PWR?" H 2500 7150 50  0001 C CNN
+F 1 "GND" H 2505 7227 50  0000 C CNN
+F 2 "" H 2500 7400 50  0001 C CNN
+F 3 "" H 2500 7400 50  0001 C CNN
+	1    2500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604E9EBD
+P 2600 7400
+F 0 "#PWR?" H 2600 7150 50  0001 C CNN
+F 1 "GND" H 2605 7227 50  0000 C CNN
+F 2 "" H 2600 7400 50  0001 C CNN
+F 3 "" H 2600 7400 50  0001 C CNN
+	1    2600 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604EA120
+P 2700 7400
+F 0 "#PWR?" H 2700 7150 50  0001 C CNN
+F 1 "GND" H 2705 7227 50  0000 C CNN
+F 2 "" H 2700 7400 50  0001 C CNN
+F 3 "" H 2700 7400 50  0001 C CNN
+	1    2700 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 7400 2200 7500
+Wire Wire Line
+	2200 7500 850  7500
+Wire Wire Line
+	850  7500 850  2050
+Wire Wire Line
+	850  2050 3750 2050
+Wire Wire Line
+	5300 4800 5300 3750
+Wire Wire Line
+	5300 3750 2950 3750
+Wire Wire Line
+	2950 3750 2950 2550
+Wire Wire Line
+	2950 2550 3250 2550
+Wire Wire Line
+	5200 4800 5200 3850
+Wire Wire Line
+	5200 3850 2850 3850
+Wire Wire Line
+	5100 4800 5100 3950
+Wire Wire Line
+	5100 3950 2750 3950
+Wire Wire Line
+	5000 4800 5000 4050
+Wire Wire Line
+	5000 4050 2650 4050
+Wire Wire Line
+	2650 4050 2650 2250
+Wire Wire Line
+	2650 2250 3250 2250
+Wire Wire Line
+	2850 3850 2850 2350
+Wire Wire Line
+	2850 2350 3250 2350
+Wire Wire Line
+	2750 3950 2750 2450
+Wire Wire Line
+	2750 2450 3250 2450
+Text Notes 2650 2250 0    50   ~ 0
+needs update
+$EndSCHEMATC
