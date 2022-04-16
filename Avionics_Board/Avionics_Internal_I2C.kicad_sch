@@ -524,6 +524,7 @@
     (property "Datasheet" "" (id 3) (at 139.7 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+<<<<<<< Updated upstream
     (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d51))
     (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d51))
     (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d51))
@@ -537,6 +538,21 @@
     (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d51))
     (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d51))
     (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d51))
+=======
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+    (pin "~" (uuid 81c4f974-e3a7-4ddc-9a0f-753b09fb6d69))
+>>>>>>> Stashed changes
   )
 
   (symbol (lib_id "SilverSat_symbols:CY15B256J_FRAM") (at 102.87 82.55 0) (unit 1)
