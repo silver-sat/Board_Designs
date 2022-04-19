@@ -2046,6 +2046,12 @@
     (property "Datasheet" "~" (id 3) (at 234.95 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Samtec" (id 4) (at 234.95 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part_Number" "ESQ-126-37-G-D" (id 5) (at 234.95 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9c18a65d-0f14-47ad-b910-ca7f2227d0e9))
     (pin "10" (uuid e73e7531-1c76-4aea-bb94-5853a2dba337))
     (pin "11" (uuid 193c1f83-d172-4fc4-8c9f-e569e47229fa))
@@ -2111,6 +2117,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 234.95 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Samtec" (id 4) (at 234.95 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part_Number" "ESQ-126-37-G-D" (id 5) (at 234.95 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8fbe9c8d-7a15-4d8b-94b4-77b24b01a982))
@@ -3374,6 +3386,9 @@
     (path "/00000000-0000-0000-0000-00006215fcc9/00ece1e8-e780-4310-afee-001a4944d569"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006215cd22/0eda7144-4458-4812-9292-1643d7583da3"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006215fbc6/12c08ac5-f9ef-4f23-b7f5-96209bbc1bb6"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -3400,6 +3415,9 @@
     )
     (path "/00000000-0000-0000-0000-00006215c65c/5f4d33c4-25cc-424b-bbe2-46876a920b0a"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006215cd22/70397bc4-5d9f-471b-98cb-c73764fbd338"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8c82b14e-f1fb-401f-b8d9-6d54821d35bc"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -3522,7 +3540,7 @@
       (reference "C?") (unit 1) (value "0.1 uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006215fcc9/9d062086-fb31-4f68-9fe6-1166c15fc8d5"
-      (reference "C?") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "C?") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006215c65c/a19c63e2-fee9-43a3-89ec-f709e6a3f3a2"
       (reference "C?") (unit 1) (value "1 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -3567,10 +3585,10 @@
       (reference "J?") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
     )
     (path "/00000000-0000-0000-0000-00006215c65c/00000000-0000-0000-0000-00006235ca8b"
-      (reference "J?") (unit 1) (value "SWD") (footprint "")
+      (reference "J?") (unit 1) (value "SWD") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
     )
     (path "/00000000-0000-0000-0000-00006215c65c/00000000-0000-0000-0000-000062400719"
-      (reference "J?") (unit 1) (value "ICSP") (footprint "")
+      (reference "J?") (unit 1) (value "ICSP") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006215c65c/3831e358-2935-45bd-99f5-adea9617e162"
       (reference "J?") (unit 1) (value "Conn_01x02") (footprint "")
@@ -3793,6 +3811,9 @@
     )
     (path "/00000000-0000-0000-0000-00006215f9fe/8389195b-356a-44c3-a2e9-7820117d6596"
       (reference "U?") (unit 1) (value "TPS3813-Q1_Watchdog") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006215cd22/cf9cf0b1-4907-4627-852a-7817280fe4bf"
+      (reference "U?") (unit 1) (value "DNI") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006215fbc6/d15d6977-aec8-482c-9dbd-991be73a36c9"
       (reference "U?") (unit 1) (value "DNI") (footprint "Package_TO_SOT_SMD:SOT-23-5")
