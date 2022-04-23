@@ -40,7 +40,6 @@
   (setup
     (pad_to_mask_clearance 0)
     (aux_axis_origin 119.38 68.834)
-    (grid_origin 147.32 154.31)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -80,7 +79,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad" (layer "F.Cu")
     (tedit 61CC93B2) (tstamp 01c90bfc-1762-4ae9-996b-48c0ab2684b3)
-    (at 147.32 154.31)
+    (at 147.355 154.245)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -113,7 +112,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aa02e544-13f5-4cf8-a5f4-3e6cda006090)
     )
-    (fp_text value "Conn_02x26_Odd_Even" (at -1.27 66.27 90) (layer "F.Fab") hide
+    (fp_text value "Conn_02x26_Odd_Even" (at -7.62 68.58 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6a44418c-7bb4-4e99-8836-57f153c19721)
     )
@@ -121,7 +120,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 23bb2798-d93a-4696-a962-c305c4298a0c)
     )
-    (fp_text user "${REFERENCE}" (at -1.27 31.75) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -1.27 31.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 94c158d1-8503-4553-b511-bf42f506c2a8)
     )
@@ -347,7 +346,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42713045-fffd-4b2d-ae1e-7232d705fb12)
     )
-    (fp_text user "${REFERENCE}" (at -1.27 31.75) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -1.27 31.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c0515cd2-cdaa-467e-8354-0f6eadfa35c9)
     )
@@ -504,7 +503,6 @@
   (gr_arc (start 119.8088 159.385) (mid 118.964656 159.035344) (end 118.615 158.1912) (layer "Edge.Cuts") (width 0.2) (tstamp 8f504bd6-a9e4-4a3c-8cba-582c5ca13f66))
   (gr_arc (start 97.1012 63.5) (mid 97.945344 63.849656) (end 98.295 64.6938) (layer "Edge.Cuts") (width 0.2) (tstamp 91a14bc8-2988-4861-851c-bcfb189c204c))
   (gr_line (start 98.295 65.2272) (end 98.295 64.6938) (layer "Edge.Cuts") (width 0.2) (tstamp 9916c55d-94a6-4b5d-a402-6c03cbd4e3ae))
-  (gr_circle (center 107.32 111.43) (end 115.321 111.43) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp a0618ee0-4d0e-4766-8061-588313713792))
   (gr_line (start 151.2062 86.487) (end 149.0218 86.487) (layer "Edge.Cuts") (width 0.2) (tstamp a1709084-e10e-49da-b184-a760d0e8ebfa))
   (gr_line (start 119.8088 63.5) (end 146.6342 63.5) (layer "Edge.Cuts") (width 0.2) (tstamp a2249050-664f-4c66-8da4-7d5f8aaf1e41))
   (gr_arc (start 152.4 158.1912) (mid 152.050344 159.035344) (end 151.2062 159.385) (layer "Edge.Cuts") (width 0.2) (tstamp b3d85781-ca2a-4768-87d1-0f26f0315c44))
