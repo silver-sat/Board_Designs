@@ -7,4 +7,17 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "3V3_LUP" (shape input) (at 148.59 91.44 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 1e3a3f26-7ccc-4685-b974-7c0a8836a2ac)
+  )
+  (hierarchical_label "3V3" (shape input) (at 76.2 92.71 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 25496e43-f090-43bb-80fc-dbba09809366)
+  )
+  (hierarchical_label "Overcurrent_3V3" (shape input) (at 77.47 105.41 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 6ef81788-b550-44aa-9127-3396b2ca1a10)
+  )
 )

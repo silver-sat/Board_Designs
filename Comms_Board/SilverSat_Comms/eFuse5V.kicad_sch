@@ -7,4 +7,17 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "Overcurrent_5V" (shape input) (at 110.49 100.33 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2d3b9236-1e86-4507-aa63-ca6a913c9c82)
+  )
+  (hierarchical_label "5V_LUP" (shape input) (at 139.7 85.09 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 99fd072f-a308-49bb-8701-118492d96ceb)
+  )
+  (hierarchical_label "5V" (shape input) (at 104.14 83.82 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c92802c9-4090-4b47-978c-1411693580e2)
+  )
 )
