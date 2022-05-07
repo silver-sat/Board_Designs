@@ -29,3 +29,6 @@ fp-info-cache
 *.csv
 Avionics_Board/.DS_Store
 .DS_Store
+
+# zip files
+*.zip
