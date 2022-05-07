@@ -7,4 +7,17 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "SDA" (shape input) (at 116.84 90.17 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 49a50dac-e454-4e5d-9f08-428d24d7d4b7)
+  )
+  (hierarchical_label "3V3" (shape input) (at 118.11 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 951e6a9e-723b-45a5-b6bb-dc679b71cfe2)
+  )
+  (hierarchical_label "SCL" (shape input) (at 116.84 93.98 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e6fdc608-a220-4287-a885-5e4c8a5ba501)
+  )
 )
