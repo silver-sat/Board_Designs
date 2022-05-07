@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Avionics_Board-rescue")(type "Legacy")(uri "C:/Users/tom/Documents/GitHub/board_designs/Avionics_Board/Avionics_Board-rescue.lib")(options "")(descr ""))
+  (lib (name "Library_no_delete")(type "Legacy")(uri "")(options "")(descr ""))
+)
