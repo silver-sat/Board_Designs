@@ -5288,9 +5288,9 @@
   (symbol (lib_id "74xGxx:74LVC1G332") (at 116.84 232.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000622da8f1)
-    (property "Reference" "U10" (id 0) (at 116.84 224.4344 0))
-    (property "Value" "74LVC1G332" (id 1) (at 116.84 226.7458 0))
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 116.84 232.41 0)
+    (property "Reference" "U10" (id 0) (at 112.014 223.774 0))
+    (property "Value" "" (id 1) (at 124.968 228.6 0))
+    (property "Footprint" "" (id 2) (at 116.84 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (id 3) (at 116.84 232.41 0)
@@ -5940,7 +5940,7 @@
       (reference "U9") (unit 5) (value "74HC02") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-0000622da8f1"
-      (reference "U10") (unit 1) (value "74LVC1G332") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U10") (unit 1) (value "74LVC1G332") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-0000615f0920"
       (reference "Y1") (unit 1) (value "3.5864 MHz1") (footprint "Crystal:Crystal_SMD_HC49-SD_HandSoldering")
