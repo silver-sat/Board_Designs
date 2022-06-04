@@ -3501,7 +3501,7 @@
       (reference "C9") (unit 1) (value "0.1 uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006215c65c/00000000-0000-0000-0000-00006232c373"
-      (reference "C10") (unit 1) (value "4700 pF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "C10") (unit 1) (value "4700 pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006215c65c/d707ee27-044d-4834-b9f6-0b9de43065db"
       (reference "C11") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder")
