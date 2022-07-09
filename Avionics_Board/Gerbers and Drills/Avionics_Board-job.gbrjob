@@ -1,0 +1,176 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "(6.0.4)"
+    },
+    "CreationDate": "2022-07-08T23:35:13-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Avionics_Board",
+      "GUID": "4176696f-6e69-4637-935f-426f6172642e",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 90.37,
+      "Y": 96.085
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.7699,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.254
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.254,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Avionics_Board-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Avionics_Board-GND_Cu.g2",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Avionics_Board-3V3_Cu.g3",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Avionics_Board-B_Cu.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Avionics_Board-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Avionics_Board-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Avionics_Board-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Avionics_Board-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Avionics_Board-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Avionics_Board-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Avionics_Board-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Liquid Photo",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Purple",
+      "Thickness": 0.0254,
+      "Material": "Epoxy",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0432,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2022,
+      "Material": "FR408-HR",
+      "Name": "F.Cu/GND.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to GND.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0173,
+      "Name": "GND.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.1938,
+      "Material": "FR408-HR",
+      "Name": "GND.Cu/3V3.Cu",
+      "Notes": "Type: dielectric layer 2 (from GND.Cu to 3V3.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0173,
+      "Name": "3V3.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2022,
+      "Material": "FR408-HR",
+      "Name": "3V3.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from 3V3.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0432,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Purple",
+      "Thickness": 0.0254,
+      "Material": "Epoxy",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Liquid Photo",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
